@@ -1,0 +1,113 @@
+body{
+	background-image:linear-gradient(to right,#AA96DA,#C5FAD5,#FFFFD2);
+/*background-image:linear-gradient(to right,#B85042,#E7E8D1,#A7BEAE);*/
+	background-repeat: none;
+	justify-content: center;
+	animation: bgcolour 3s infinite;
+}
+@keyframes bgcolour{
+   0%   {background-image:linear-gradient(to right,#AA96DA,#C5FAD5,#FFFFD2);}
+  50%  {background-image:linear-gradient(#f4e1d2,#f18973,#f4a688);}
+}
+.smile{
+	margin-top:100px;
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	background-image:linear-gradient(#ffeead,#ffcc5c,#ff6f69);
+}
+.smile:hover{
+    background-image:linear-gradient(#ffeead,#d96459,#ffeead);
+}
+.eye1,.eye2{
+	border: 1px solid black;
+	border-radius: 40%;
+	width: 70px;
+	height: 70px;
+	background:black;
+}
+.eye2:hover{
+	border:1px solid black;
+	width:80px;
+	height:5px;
+    position: relative;
+    top:90px;
+    left:90px;
+    background: black;
+}
+.eye1{
+	position: relative;
+    top:120px;
+    right:90px;
+}
+.eye2{
+	position: relative;
+    top:50px;
+    left:90px;
+}
+img{
+	position: relative;
+	top:160px;
+	width:310px;
+	height:100px;
+}
+.imgimg{
+	width:80px;
+	height:80px;
+	position: absolute;
+	top:70px;
+	left:100px;
+	animation: mymove 3s infinite;
+}
+@keyframes mymove{
+   0%   {top: 100px; transform: rotate(0deg);}
+  25%  {top: 200px; transform: rotate(30deg);}
+  75%  {top: 350px; transform: rotate(60deg);}
+  100% {top: 100px; transform: rotate(100deg);}
+}
+
+.imgimg1{
+	width:80px;
+	height:80px;
+	position: relative;
+	top:20px;
+	right:350px;
+	animation: mymove2 3s infinite;
+}
+@keyframes mymove2{
+  0%   {top: -100px; transform: rotate(100deg);}
+  25%  {top: -200px; transform: rotate(60deg);}
+  75%  {top: -350px; transform: rotate(30deg);}
+  100% {top: -100px; transform: rotate(0deg);}
+}
+
+.imgimg3{
+	width:80px;
+	height:80px;
+	position: absolute;
+	top:70px;
+	right:350px;
+	animation: mymove3 3s infinite;
+}
+@keyframes mymove3{
+  0%   {top: 100px; transform: rotate(0deg);}
+  25%  {top: 200px; transform: rotate(30deg);}
+  75%  {top: 350px; transform: rotate(60deg);}
+  100% {top: 100px; transform: rotate(100deg);}
+}
+
+.imgimg2{
+	width:80px;
+	height:80px;
+	position: relative;
+	top:-70px;
+	left:570px;
+	animation: mymove1 3s infinite;
+}
+@keyframes mymove1{
+   0%   {top: -100px; transform: rotate(0deg);}
+  25%  {top: -200px; transform: rotate(30deg);}
+  75%  {top: -350px; transform: rotate(60deg);}
+  100% {top: -100px; transform: rotate(100deg);}
+}
